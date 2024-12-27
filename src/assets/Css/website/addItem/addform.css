@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.addform_content {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.addform_content h2 {
+    text-align: center;
+    color: #585A96;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.addform_content .ui-form {
+    justify-content: flex-start;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.addform_content .ui-form label {
+    font-weight: 600;
+}
+
+.addform_content .ui-radiogroup__item__indicator {
+    width: 24px;
+}
+
+.addform_content .ui-form .ui-form__input {
+    margin-bottom: 2px;
+}
+
+.addform_content .ui-radiogroup, label{
+    margin-bottom: 2px !important;
+}
+
+
+
+
+

@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 48px;
+    background-color: #464775;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.headerForm {
+    width: 24%;
+    height: 32px;
+}
+
+ .header_input {
+    text-align: center;
+    width: 100% ;
+    height: 100%;
+    border-radius: 4px;
+    background-color: rgb(243, 242, 241);
+}
+
+.IconFocus_not .ui-box .ui-input__icon  {
+    width: 80%;
+}
+
+.IconFocus .ui-box .ui-input__icon  {
+    width: 8%;
+}
+
+
+.header_input  input {
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+.headerInfAcc{
+    height: 48px;
+    display: flex;
+    position: absolute;
+    right: 0;   
+}
+.headerInfAcc_name {
+    color: #ffff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 48px;
+}
+
+.headerInfAcc_img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 8px 20px 8px 12px;
+}
+
+.headerInfAcc_img img {
+    width: 100%;
+    height: 100%;
+}
+

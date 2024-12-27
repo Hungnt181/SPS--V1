@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.filterData_form {
+    width: 22%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -4px 4px 8px  #dedddd;
+    position: absolute;
+    right: 0px;
+    top : 156px
+}
+
+.filter {
+   padding : 8px 16px
+}
+
+.filter h2 {
+   color: #000;
+   font-size: 18px;
+   font-weight: 600;
+}
+
+.filter h5 {
+   color: #464775;
+   font-size: 16px;
+   margin-top: 16px;
+}
+
+.filter--header {
+   display: flex;
+   justify-content: space-between;
+}
+
+.filter--header .ui-button__content {
+   font-size: 14px;
+   font-weight: 400;
+}
+
+.filter .ui-dropdown__container {
+   padding-left: 16px;
+   background-color: #c2c4f7 !important;
+   color: #fff;
+}
+
+.filter .ui-dropdown__container, .filter.ui-list {
+    max-width: 100%;
+    background-color: #fff;
+
+}
+
+.filter .ui-list {
+    position: absolute;
+    inset: 0px auto auto 0px;
+    margin: 0px;
+    max-width: 100% !important;
+    transform: none;
+ }
+
+ .filter .ui-form__label {
+    font-size: 14px;
+    color: #242424;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 8px !important
+ }
+
+ .filter .ui-box {
+    /* display: flex; */
+    justify-content: end;
+ }
+
+ .filter .ui-box > span {
+    padding: 0;
+ }
+
+ .filter .ui-dropdown__selected-items {
+    margin: 10px 0px;
+ }
+
+ .filter--Date {
+   display: flex;
+ }
+
+ .filter--Date .ui-icon {
+    padding: 0;
+    margin: 0 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+ }
+
